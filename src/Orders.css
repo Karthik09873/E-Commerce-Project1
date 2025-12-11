@@ -1,0 +1,85 @@
+.orders-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #111;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #333;
+  font-family: Arial, sans-serif;
+}
+
+.orders-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.order-info {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  line-height: 1.8;
+}
+
+.paid {
+  color: #0f0;
+  font-weight: bold;
+}
+
+.pending {
+  color: orange;
+  font-weight: bold;
+}
+
+.section-title {
+  margin-top: 20px;
+  font-size: 24px;
+  border-left: 4px solid #ffbf00;
+  padding-left: 10px;
+}
+
+.order-items {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.order-item-card {
+  background: #1d1d1d;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.order-item-img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.bill-summary {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+  line-height: 2;
+}
+
+.net-amount {
+  margin-top: 15px;
+  font-size: 26px;
+  color: #ffbf00;
+  text-align: center;
+}
+
+.no-order {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+  color: red;
+}

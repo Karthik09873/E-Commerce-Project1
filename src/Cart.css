@@ -1,0 +1,276 @@
+/* MAIN CART CONTAINER */
+.cart-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding:  30px;
+  font-family: Arial, sans-serif;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  padding: auto;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #b7ff01;
+}
+/* TIMER */
+.timer-box {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border: 1px solid #ffeeba;
+}
+
+/* ITEMS LIST BOX */
+.items-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* SINGLE ITEM CARD */
+.item-card {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.item-img {
+  width: 100px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ITEM INFORMATION */
+.item-info {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.item-info h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.item-info p {
+  color: #444;
+  font-size: 16px;
+}
+
+/* QUANTITY BUTTONS */
+.qty-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  color: #333;
+}
+
+.qty-buttons button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: #ff6600;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.qty-buttons button:hover {
+  background: #e25500;
+}
+
+/* REMOVE BUTTON */
+.remove-btn {
+  background: #cc0000;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.remove-btn:hover {
+  background: #a30000;
+}
+
+/* BILL BOX */
+.bill-box {
+  background: #fafafa;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.bill-box p,
+.bill-box h2 {
+  margin: 8px 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.bill-box .net {
+  font-size: 22px;
+  color: #ff6600;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* MESSAGE COLORS */
+.msg-green {
+  color: green;
+  font-weight: 600;
+}
+
+.msg-red {
+  color: red;
+  font-weight: 600;
+}
+
+/* EMAIL SECTION */
+.email-section {
+  width: 100%;
+  margin-top: 25px;
+  padding: 10px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.email-section h4 {
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+}
+
+.email-section input {
+  width: 100%;
+  padding: 12px 4px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.email-section input:focus {
+  border-color: #ff6600;
+  box-shadow: 0 0 6px rgba(255, 102, 0, 0.4);
+}
+
+/* QR BOX */
+.qr-box {
+  margin-top: 20px;
+  padding: 20px;
+  width: 350px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-box h1 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.qr-box button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #4b7bec;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.qr-box button:hover {
+  background: #3867d6;
+}
+
+.qr-box canvas {
+  margin-top: 15px;
+  border: 5px solid #eee;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.discount-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 15px 0;
+}
+
+.discount-buttons button {
+  padding: 10px 18px;
+  background: linear-gradient(135deg, #ff7f00, #ff5200);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 120, 0, 0.3);
+}
+
+.discount-buttons button:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #ff5200, #ff3300);
+  box-shadow: 0 6px 14px rgba(255, 80, 0, 0.4);
+}
+
+.discount-buttons button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(255, 80, 0, 0.3);
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .item-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .item-img {
+    width: 150px;
+    height: 130px;
+  }
+
+  .item-info {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .remove-btn {
+    margin-top: 10px;
+  }
+}

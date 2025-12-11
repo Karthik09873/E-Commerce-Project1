@@ -1,0 +1,107 @@
+/* MAIN WRAPPER – Full Width */
+.home-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+/* HERO SECTION */
+.hero-box {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+/* FULL WIDTH IMAGE */
+.hero-video {
+  width: 100%;
+  height: 1000;           /* Responsive perfect height */
+  object-fit: cover;      /* Clean crop without distortion */
+  object-position: center; /* Keeps important part centered */
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  bottom: auto;
+}
+
+/* HERO TEXT */
+.hero-title {
+  margin-top: 25px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #222;
+}
+
+.hero-desc {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* BUTTON */
+.hero-btn {
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: #ff5722;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #e64a19;
+  transform: translateY(-3px);
+}
+
+/* FEATURES GRID */
+.features-container {
+  width: 100%;
+  margin-top: 40px;
+  padding: 0 20px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* CARD */
+.feature-card {
+  background: white;
+  padding: 15px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Feature Images */
+.feature-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+/* Text */
+.feature-card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.feature-card p {
+  color: #666;
+  font-size: 15px;
+}

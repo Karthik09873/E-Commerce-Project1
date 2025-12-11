@@ -1,0 +1,22 @@
+
+
+/* IMAGE STYLE */
+.menu-img {
+  width: 50%;
+  max-width: 100px;   /* prevents it from becoming too large on wide screens */
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px; /* optional smooth corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* optional shadow */
+}
+
+/* MOBILE FRIENDLY */
+@media (max-width: 768px) {
+  .menu-container {
+    padding: 10px 0;
+  }
+
+  .menu-img {
+    border-radius: 5px;
+  }
+}

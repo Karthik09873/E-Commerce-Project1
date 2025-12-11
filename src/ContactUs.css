@@ -1,0 +1,85 @@
+/* MAIN WRAPPER */
+.contact-wrapper {
+  min-height: 100vh;
+  background: #f1f3f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* CONTACT BOX */
+.contact-box {
+  width: 420px;
+  background: #fff;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.contact-box h1 {
+  margin-bottom: 10px;
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1.6px solid #ccc;
+  outline: none;
+  font-size: 15px;
+}
+
+.contact-box button {
+  padding: 12px;
+  background: #6c63ff;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-box button:hover {
+  background: #5548ff;
+}
+
+/* SLIDE-UP SUCCESS CARD */
+.slide-card {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 340px;
+  background: #dfffe0;
+  padding: 20px;
+  border-left: 6px solid #22bb33;
+  border-radius: 12px;
+  text-align: center;
+  animation: slideUp 0.5s ease-out;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+
+.slide-card h3 {
+  color: #22bb33;
+  margin-bottom: 5px;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translate(-50%, 40px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0px);
+    opacity: 1;
+  }
+}
