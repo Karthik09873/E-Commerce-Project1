@@ -10,7 +10,7 @@ import "./Navbar.css";
 import { useSelector } from "react-redux";
 import Menu from './Menu';
 import Orders from './Orders';
-import Signup from './SignUp';
+import Signup from './Signup';
 import Signin from './Signin';
 
 // ------------------------------------------------------
